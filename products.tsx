@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { AiOutlineShoppingCart } from "react-icons/ai";
 
-export default function Products(product) {
+export default function Products({product}) {
   return (
     <div className="border-solid border-[rgba(173,_173,_173,_0.25)] bg-white w-full flex flex-col items-center p-[2px] border rounded-sm">
       <img src={product.imageSrc} alt={product.name} />
